@@ -7,20 +7,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | 3-column preview card component</title>
   <!-- Google fonts -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <!-- My CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <main>
 
-    <article class="container">
-
-        <div class="item">
-
-          <img src="./images/icon-sedans.svg" alt="yellow sedan vehicle icon">
+    <article class="flex-container">
+      
+        <div class="item item-one">
+          <img class="image" src="./images/icon-sedans.svg" alt="yellow sedan vehicle icon">
 
           <div class="content">
             <h1>Sedans</h1>
@@ -30,16 +31,15 @@
               or on your next road trip.
             </p>
 
-            <button>
+            <a>
               Learn More
-            </button>
+            </a>
 
           </div>
         </div>
 
-        <div class="item">
-  
-          <img src="./images/icon-suvs.svg" alt="blue SUV icon">
+        <div class="item item-two">
+          <img class="image" src="./images/icon-suvs.svg" alt="blue SUV icon">
 
           <div class="content">
             <h1>SUVs</h1>
@@ -49,16 +49,15 @@
               and off-road adventures.
             </p>
 
-            <button>
+            <a>
               Learn More
-            </button>
+            </a>
 
           </div>
         </div>
 
-        <div class="item">
-
-          <img src="./images/icon-luxury.svg" alt="green convertible vehicle icon">
+        <div class="item item-three">
+          <img class="image" src="./images/icon-luxury.svg" alt="green convertible vehicle icon">
 
           <div class="content">
             <h1>Luxury</h1>
@@ -68,15 +67,15 @@
               rental and arrive in style.
             </p>
 
-            <button>
+            <a>
               Learn More
-            </button>
+            </a>
 
           </div>
         </div>
 
     </article>
-    
+
   </main>
 
 </body>
