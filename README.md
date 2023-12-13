@@ -8,6 +8,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -29,6 +30,12 @@ Users should be able to:
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/3colpreviewcardcomponent-using-css-flexbox-5695IlDUBT)
 - Live Site URL: [Live site URL](https://dashaunn.github.io/FEM-3-column-preview-card-component-main/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
 
 ## Author
 
